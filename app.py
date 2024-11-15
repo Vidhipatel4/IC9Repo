@@ -24,6 +24,11 @@ chocolates = [
         "image": "https://m.media-amazon.com/images/I/61-pg5u+9pL.jpg",
         "price": 6.49
     }
+    {
+    "image": "https://m.media-amazon.com/images/I/61-pg5u+9pL.jpg",
+    "name": "Cream Chocolate",
+    "price": 15.49
+    }
 ]
 
 @app.route('/chocolates', methods=['GET'])
