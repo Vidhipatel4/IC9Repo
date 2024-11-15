@@ -1,4 +1,3 @@
-
 from flask import Flask, jsonify
 from flask_cors import CORS
 
@@ -25,9 +24,9 @@ chocolates = [
         "price": 6.49
     }
     {
-    "image": "https://m.media-amazon.com/images/I/61-pg5u+9pL.jpg",
-    "name": "Cream Chocolate",
-    "price": 15.49
+        "name": "Cream Chocolate",
+        "image": "https://m.media-amazon.com/images/I/61-pg5u+9pL.jpg",
+        "price": 15.49
     }
 ]
 
@@ -37,5 +36,4 @@ def get_chocolates():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80)
-
 
